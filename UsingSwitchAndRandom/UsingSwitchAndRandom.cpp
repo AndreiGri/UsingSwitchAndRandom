@@ -15,18 +15,18 @@ int main()
         switch (num) {
         case 3:
         case 6:
-            cout << num << ": число делится на три" << endl;
+            cout << k << ": " << num << ": число делится на три" << endl;
             break;
         case 2:
         case 4:
         case 8:
-            cout << num << ": число является степенью двух" << endl;
+            cout << k << ": " << num << ": число является степенью двух" << endl;
             break;
         case 5:
-            cout << num << ": пятёрка" << endl;
+            cout << k << ": " << num << ": пятёрка" << endl;
             break;
         case 7:
-            cout << num << ": семёрка" << endl;
+            cout << k << ": " << num << ": семёрка" << endl;
             break;
         }
     }
